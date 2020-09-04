@@ -1,0 +1,105 @@
+body { 
+  margin: auto; 
+}
+
+.live {
+  font-family: OleoScript-Bold;
+  font-size: 25px;
+  text-decoration: none;
+  color: #00000;
+}
+
+.live:hover {
+  color: #FF0000;
+}
+
+.nav container {
+  display: flex;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav {
+  font-family: Helvetica;
+  font-size: 23px;
+  text-decoration: none;
+  color: #00000;
+  text-align: left;
+  letter-spacing: -1px;
+  margin: 20px 10px 0 20px;
+}
+
+.nav:hover {
+  color: #33beff;
+}
+
+.hkanimation {
+  width: 20%;
+  position: absolute;
+  margin: -10px 0 0 50px;
+}
+
+.box	 {
+  position: absolute;
+  z-index: -1;
+  width: 30%;
+  left: 55%;
+  top: -30%;
+}
+
+.gifs {
+  display: flex;
+  position: relative;
+  height: 1036px;
+  margin-top: 500px;
+}
+
+.Heading {
+  position: absolute;
+  width: 100%;
+  z-index; 1;
+}
+
+.flowers {
+  position: absolute;
+  width: 15%;
+  top: 40%;
+  z-index: -1;
+}
+
+.CD {
+  position: absolute;
+  width: 8%;
+  left: 65%;
+  top: 53.5%;
+  z-index: -1;
+}
+
+.PAC {
+  position: absolute;
+  width: 20%;
+  z-index: -2;
+  left: 80%;
+  top: 50%;
+}
+
+.copyright {
+  color: #00000;
+  text-align: center;
+  display: inline-block;
+  font-family: UbuntuCondensed-Regular;
+  font-size: 11px;
+  margin: 90px 0 50px 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@font-face { font-family: HKGrotesk-regular; src: url('fonts/HKGrotesk-regular.TTF'); } 
+@font-face { font-family: HKGrotesk-medium; src: url('fonts/HKGrotesk-medium.TTF'); } 
+@font-face { font-family: HKGrotesk-bold; src: url('fonts/HKGrotesk-bold.TTF'); } 
+@font-face { font-family: HKGrotesk-bold; src: url('fonts/Spectral-SemiBold.TTF'); } 
+@font-face { font-family: UbuntuCondensed-Regular; src: url('fonts/UbuntuCondensed-Regular.TTF'); } 
+@font-face { font-family: OleoScript-Bold; src: url('fonts/OleoScript-Bold.TTF'); } 
+@font-face { font-family: LexendPeta-Regular; src: url('fonts/LexendPeta-Regular.TTF'); } 
+
+
