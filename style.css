@@ -7,14 +7,16 @@ body {
   font-size: 25px;
   text-decoration: none;
   color: #00000;
+  margin: 13px 10px 0 20px;
 }
 
 .live:hover {
   color: #FF0000;
 }
 
-.nav container {
-  display: flex;
+.navcontainer {
+  top: 0;
+  position: fixed;
   width: 100%;
   z-index: 1;
 }
@@ -24,7 +26,6 @@ body {
   font-size: 23px;
   text-decoration: none;
   color: #00000;
-  text-align: left;
   letter-spacing: -1px;
   margin: 20px 10px 0 20px;
 }
@@ -35,8 +36,8 @@ body {
 
 .hkanimation {
   width: 20%;
-  position: absolute;
-  margin: -10px 0 0 50px;
+  margin: auto;
+  display: block;
 }
 
 .box	 {
@@ -50,14 +51,11 @@ body {
 .gifs {
   display: flex;
   position: relative;
-  height: 1036px;
   margin-top: 500px;
 }
 
 .Heading {
-  position: absolute;
   width: 100%;
-  z-index; 1;
 }
 
 .flowers {
@@ -102,4 +100,13 @@ body {
 @font-face { font-family: OleoScript-Bold; src: url('fonts/OleoScript-Bold.TTF'); } 
 @font-face { font-family: LexendPeta-Regular; src: url('fonts/LexendPeta-Regular.TTF'); } 
 
+@media (max-width: 1100px) {
+ .hkanimation {
+  width: 30%;
+}
 
+ .navcontainer {
+  position: static;
+  text-align: center;
+}
+}
