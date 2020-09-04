@@ -6,7 +6,7 @@ body {
   font-family: OleoScript-Bold;
   font-size: 25px;
   text-decoration: none;
-  color: #00000;
+  color: #000000;
   margin: 13px 10px 0 20px;
 }
 
@@ -25,7 +25,7 @@ body {
   font-family: Helvetica;
   font-size: 23px;
   text-decoration: none;
-  color: #00000;
+  color: #000000;
   letter-spacing: -1px;
   margin: 20px 10px 0 20px;
 }
@@ -57,7 +57,6 @@ body {
 
 .iframecontainer {
   padding-top: 56.25%;
-  background-color: #ccc;
   position: relative;
   margin: auto;
   max-width: 1050px;
@@ -109,11 +108,11 @@ body {
 }
 
 .copyright {
-  color: #00000;
+  color: #000000;
   text-align: center;
   display: inline-block;
   font-family: UbuntuCondensed-Regular;
-  font-size: 11px;
+  font-size: 12px;
   margin: 90px 0 50px 0;
   width: 100%;
   z-index: 1;
