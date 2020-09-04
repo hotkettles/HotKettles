@@ -42,12 +42,17 @@ body {
 
 .box	 {
   z-index: -1;
+  position: absolute;
   width: 30%;
+  left: 60%;
+  top: 0;
+  transform: translateY(-50%);
 }
 
 .iframecontcont {
   padding-left: 15px;
   padding-right: 15px;
+  margin-top: 35px;
 }
 
 .iframecontainer {
