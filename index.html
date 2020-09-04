@@ -14,10 +14,9 @@ margin: auto;
 
 .live {
   font-family: OleoScript-Bold;
-  font-size: 24px;
+  font-size: 25px;
   text-decoration: none;
   color: #00000;
-  margin: 10px;
 }
 
 .live:hover {
@@ -26,8 +25,6 @@ margin: auto;
 
 .nav container {
   display: flex;
-  list-style: none;
-  position: relative;
   width: 100%;
   z-index: 1;
 }
@@ -37,21 +34,27 @@ margin: auto;
   font-size: 23px;
   text-decoration: none;
   color: #00000;
-  text-align: center;
+  text-align: left;
   letter-spacing: -1px;
-  margin: 20px 10px 0 10px;
+  margin: 20px 10px 0 20px;
   }
 
 .nav:hover {
   color: #33beff;
   }
+
+.hkanimation {
+  width: 20%;
+  position: absolute;
+  margin: -10px 0 0 50px;
+}
   
 .box	 {
-  background: url("images/BOX.gif") center/contain no-repeat;  
-  height: 350px;
   position: absolute;
   z-index: -1;
-  width: 100%;
+  width: 30%;
+  left: 55%;
+  top: -30%;
   }
 
 .gifs {
@@ -62,37 +65,32 @@ margin: auto;
   }
 
 .Heading {
-  background: url("images/Heading.png") center/contain no-repeat;
   position: absolute;
   width: 100%;
-  height: 1036px;
   z-index; 1;
   }
 
 .flowers {
-  background: url("images/flowers.gif") center/contain no-repeat;
   position: absolute;
-  width: 25%;
-  height: 100%;
+  width: 15%;
+  top: 40%;
   z-index: -1;
   }
 
 .CD {
-  background: url("images/CD.gif") center/contain no-repeat;
   position: absolute;
-  transform: scale(0.12) translate(140%, 130%);
-  width: 100%;
-  height: 100%;
+  width: 8%;
+  left: 65%;
+  top: 53.5%;
   z-index: -1;
   }
 
 .PAC {
-  background: url("images/PAC.gif") center/contain no-repeat;
   position: absolute;
-  transform: scale(0.16) translate(200%, 170%);
-  width: 100%;
-  height: 100%;
+  width: 20%;
   z-index: -2;
+  left: 80%;
+  top: 50%;
   }
 
 .copyright {
@@ -128,16 +126,17 @@ margin: auto;
 <a class='nav' href="https://www.mixcloud.com/hotkettles/">MIXCLOUD</a>
 <a class='nav' href="https://www.instagram.com/hotkettles.radio/">GRAM</a>
 <a class='nav' href="mailto:hotkettlesradio@gmail.com">SAY Hi</a>
-<div class='box'></div>
+<img class='hkanimation' src="images/hkanimation.gif"></img>
 </div>
 
+<img class='box' src="images/BOX.gif"></img>
 
 
 <div class='gifs'>
-<div class='Heading'></div>
-<div class='flowers'></div>
-<div class='CD'></div>
-<div class='PAC'></div>
+<img class='Heading' src="images/Heading.png"></img>
+<img class='flowers' src="images/flowers.gif"></img>
+<img class='CD' src="images/CD.gif"></img>
+<img class='PAC' src="images/PAC.gif"></img>
 </div>
 
 <div class='copyright'>What's here is copyrighted by Hot Kettles©</div>
