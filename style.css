@@ -10,7 +10,7 @@ body {
   font-size: 25px;
   text-decoration: none;
   color: #000000;
-  padding: 20px;
+  padding: 20px 10px 20px 10px;
 }
 
 .live:hover {
@@ -31,7 +31,7 @@ body {
   text-decoration: none;
   color: #000000;
   letter-spacing: -0.3px;
-  padding: 20px;
+  padding: 20px 10px 20px 10px;
 }
 
 .nav:hover {
