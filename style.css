@@ -1,9 +1,12 @@
+@font-face { font-family: UbuntuCondensed-Regular; src: url('fonts/UbuntuCondensed-Regular.ttf'); } 
+@font-face { font-family: OleoScript-Bold; src: url('fonts/OleoScript-Bold.ttf'); } 
+
 body { 
   margin: 0;
 }
 
 .live {
-  font-family: OleoScript-Bold;
+  font-family: OleoScript-Bold, sans-serif;
   font-size: 25px;
   text-decoration: none;
   color: #000000;
@@ -23,7 +26,7 @@ body {
 }
 
 .nav {
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   font-size: 23px;
   text-decoration: none;
   color: #000000;
@@ -52,15 +55,14 @@ body {
 .iframecontcont {
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 50px;
+  margin: 50px auto 0;
+  max-width: 980px;
 }
 
 .iframecontainer {
   padding-top: 56.25%;
   position: relative;
-  margin: auto;
-  max-width: 980px;
-  }
+}
 
 .iframe {
   width: 100%;
@@ -75,13 +77,15 @@ body {
  } 
 
 .gifs {
-  display: flex;
   position: relative;
-  margin-top: 60px;
+  max-width: 1188px;
+  margin: 30px auto;
 }
 
 .Heading {
-  width: 100%;
+  width: 90%;
+  margin: auto;
+  display: block;
 }
 
 .flowers {
@@ -89,6 +93,7 @@ body {
   width: 15%;
   top: 40%;
   z-index: -1;
+  left: 0;
 }
 
 .CD {
@@ -111,20 +116,12 @@ body {
   color: #000000;
   text-align: center;
   display: inline-block;
-  font-family: UbuntuCondensed-Regular;
+  font-family: UbuntuCondensed-Regular, sans-serif;
   font-size: 12px;
   margin: 40px 0 50px 0;
   width: 100%;
   z-index: 1;
 }
-
-@font-face { font-family: HKGrotesk-regular; src: url('fonts/HKGrotesk-regular.TTF'); } 
-@font-face { font-family: HKGrotesk-medium; src: url('fonts/HKGrotesk-medium.TTF'); } 
-@font-face { font-family: HKGrotesk-bold; src: url('fonts/HKGrotesk-bold.TTF'); } 
-@font-face { font-family: HKGrotesk-bold; src: url('fonts/Spectral-SemiBold.TTF'); } 
-@font-face { font-family: UbuntuCondensed-Regular; src: url('fonts/UbuntuCondensed-Regular.TTF'); } 
-@font-face { font-family: OleoScript-Bold; src: url('fonts/OleoScript-Bold.TTF'); } 
-@font-face { font-family: LexendPeta-Regular; src: url('fonts/LexendPeta-Regular.TTF'); } 
 
  .hkanimation {
   width: 34%;
@@ -138,5 +135,4 @@ body {
  .navcontainer {
   width: 100%;
   text-align: center;
-}
 }
