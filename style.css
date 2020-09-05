@@ -141,11 +141,11 @@ body {
 @media (max-width: 500px) {
 
 .live {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .nav {
-  font-size:16px;
+  font-size:15px;
 }
 
 }
