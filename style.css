@@ -30,7 +30,7 @@ body {
   font-size: 23px;
   text-decoration: none;
   color: #000000;
-  letter-spacing: -1px;
+  letter-spacing: -0.3px;
   margin: 20px 10px 0 20px;
 }
 
@@ -47,17 +47,16 @@ body {
 .box	 {
   z-index: -1;
   position: absolute;
-  width: 30%;
-  right: 10%;
+  width: 38%;
+  left: 60%;
   top: 0;
-  transform: translateY(-50%);
-  max-width: 240px;
+  transform: translateY(-70%);
 }
 
 .iframecontcont {
   padding: 0 15px;
   max-width: 800px;
-  margin: auto;
+  margin: 50px auto 0;
 }
 
 .iframecontainer {
@@ -126,9 +125,10 @@ body {
 }
 
 .hkanimation {
-  width: 30%;
   margin: 80px auto 0;
   max-width: 240px;
+  opacity: 0.2;
+  width: 40%;
 }
 
 .navcontainer {
