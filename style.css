@@ -19,6 +19,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 1;
+  margin-top: 10px;
 }
 
 .nav {
@@ -50,8 +51,8 @@ body {
 }
 
 .iframecontcont {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin-top: 50px;
 }
 
@@ -59,7 +60,7 @@ body {
   padding-top: 56.25%;
   position: relative;
   margin: auto;
-  max-width: 1050px;
+  max-width: 980px;
   }
 
 .iframe {
@@ -113,7 +114,7 @@ body {
   display: inline-block;
   font-family: UbuntuCondensed-Regular;
   font-size: 12px;
-  margin: 90px 0 50px 0;
+  margin: 40px 0 50px 0;
   width: 100%;
   z-index: 1;
 }
@@ -129,7 +130,7 @@ body {
  .hkanimation {
   width: 40%;
   opacity: 0.2;
-  margin: 75px auto 0;
+  margin: 85px auto 0;
 }
 
  .navcontainer {
