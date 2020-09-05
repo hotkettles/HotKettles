@@ -100,7 +100,7 @@ body {
 .CD {
   position: absolute;
   width: 8%;
-  left: 65%;
+  left: 62%;
   top: 53.5%;
   z-index: -1;
 }
@@ -148,4 +148,15 @@ body {
   font-size:15px;
 }
 
+}
+
+@media (max-width: 768px) {
+
+.iframecontcont {
+  margin: 30px;
+}
+
+.copyright {
+  margin: 10px;
+}
 }
