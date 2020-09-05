@@ -36,7 +36,6 @@ body {
 }
 
 .hkanimation {
-  width: 20%;
   margin: auto;
   display: block;
 }
@@ -128,9 +127,12 @@ body {
 @font-face { font-family: LexendPeta-Regular; src: url('fonts/LexendPeta-Regular.TTF'); } 
 
  .hkanimation {
-  width: 40%;
-  opacity: 0.2;
+  width: 44%;
   margin: 85px auto 0;
+}
+
+.hkcont {
+
 }
 
  .navcontainer {
